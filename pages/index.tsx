@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           <div className='lg:grid lg:grid-cols-3 gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-700'>
-              <Image src={design} width={100} height={100}/>
+              <Image src={design} alt="" width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-200'>Beautiful Designs</h3>
               <p className="py-2 dark:text-gray-400">
                   Creating elegant designs suited for your needs following core design theory 
@@ -76,7 +76,7 @@ export default function Home() {
               <p className='text-gray-800 py-1 dark:text-gray-400'>Figma</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-700'>
-              <Image src={consulting} width={100} height={100}/>
+              <Image src={consulting} alt="" width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-200'>Consulting</h3>
               <p className="py-2 dark:text-gray-400">
                  Are you interested in feedback for your current project? I can
@@ -87,7 +87,7 @@ export default function Home() {
               <p className='text-gray-800 py-1 dark:text-gray-400'>Illustrator</p>
               <p className='text-gray-800 py-1 dark:text-gray-400'>Figma</p>
             </div><div className='text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-700'>
-              <Image src={code} width={100} height={100}/>
+              <Image src={code} alt="" width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-200'> Code your dream project</h3>
               <p className="py-2 dark:text-gray-400">
                    Do you have an idea for your next great website? Let's make it a
@@ -114,18 +114,18 @@ export default function Home() {
           </div>
           <div className='relative flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <Image src={web1} className="rounded-lg object-cover" width={'100'} height="100" layout="responsive"/>
+              <Image src={web1} alt="" className="rounded-lg object-cover" width={'100'} height="100" layout="responsive"/>
             </div>
              <div className='basis-1/3 flex-1' >
-              <Image src={web2} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
+              <Image src={web2} alt="" className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
             </div> <div className='basis-1/3 flex-1'>
-              <Image src={web3} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
+              <Image src={web3} alt="" className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
             </div> <div className='basis-1/3 flex-1'>
-              <Image src={web4} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
+              <Image src={web4} alt="" className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
             </div> <div className='basis-1/3 flex-1'>
-              <Image src={web5} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
+              <Image src={web5} alt="" className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
             </div> <div className='basis-1/3 flex-1'>
-              <Image src={web6} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
+              <Image src={web6} alt="" className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
             </div>
           </div>
 
