@@ -22,7 +22,7 @@ export default function Home() {
       <Head>
         <title>Eras Kush portofolio</title>
         <meta name="description" content="Eras Kush " />
-        <meta name="image" content="/eras.jpg"/>
+        <meta property="og:image"  content="/eras.jpg"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/me.jpg" />
       </Head>
