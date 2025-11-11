@@ -9,7 +9,7 @@ export const workExperiences = [
     location: "Chinhoyi, Zimbabwe",
     description: "Contributed to the development of software solutions and IT infrastructure improvements at CUT Innovation Hub.",
     keyResponsibilities: [
-      "Feont-end and back-end development for web applications",
+      "Front-end and back-end development for web applications",
       "Implemented database management solutions",
       "ICT support and troubleshooting",
       "Collaborated with cross-functional teams on various projects",
