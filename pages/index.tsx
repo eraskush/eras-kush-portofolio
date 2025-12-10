@@ -12,6 +12,9 @@ import ExperienceCard from '../components/ExperienceCard';
 import { workExperiences } from '../data/WorkExperience';
 import EducationCard from '../components/EducationCard';
 import { education } from '../data/Education';
+import ProjectCard from '../components/ProjectCard';
+import { projects } from '../data/Project';
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -149,6 +152,14 @@ export default function Home() {
           <div>
             <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
             </div>
+            {
+              <div>
+                {projects.map((project, index) => (
+                  <ProjectCard key={index} project={project} />
+                ))}
+               
+              </div>
+            }
 </section>
 
         <section>
