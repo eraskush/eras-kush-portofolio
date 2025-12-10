@@ -80,8 +80,8 @@ export default function Home() {
         </section>
 
         <section>
-          <div>
-            <h3 className='text-3xl py-1 dark:text-white'>About Me</h3>
+          <div className='text-center mb-8'>
+            <h3 className='text-3xl py-1 dark:text-white font-bold'>About Me</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
               Hello! I'm Erasmus K Masunga , a full-stack developer with a passion for creating dynamic and responsive web applications. With a strong foundation in both front-end and back-end technologies, I enjoy bringing ideas to life through code.
             </p>
@@ -92,8 +92,8 @@ export default function Home() {
         </section>
 
         <section>
-          <div>
-            <h3 className='text-3xl py-1 dark:text-white'>Skills</h3>
+          <div className='text-center mb-8'>
+            <h3 className='text-3xl py-1 dark:text-white font-bold'>Skills</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
               Here are some of the technologies and tools I work with:
             </p>
@@ -148,12 +148,15 @@ export default function Home() {
   </div>
 </section>
 
-<section>
-          <div>
-            <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
+<section id="projects" className="py-12 bg-white dark:bg-gray-900">
+          <div >
+            <div className="text-center mb-8">
+  <h3 className='text-3xl py-1 dark:text-white font-bold'>Projects</h3>
+  <p className="text-gray-600 dark:text-gray-300 mt-2">Here are some of my recent projects</p>
+</div>
             </div>
             {
-              <div>
+              <div className="container mx-auto px-4 dark:bg-gray-900">
                 {projects.map((project, index) => (
                   <ProjectCard key={index} project={project} />
                 ))}
@@ -163,11 +166,11 @@ export default function Home() {
 </section>
 
         <section>
-          <div>
-            <h3 className='text-3xl py-1 dark:text-white'>Services I offer</h3>
+          <div className='text-center mb-8'>
+            <h3 className='text-3xl py-1 dark:text-white font-bold'>Services I offer</h3>
               
             <p className='text-md py-2 leading-8 text-gray-800  dark:text-white'>
-              I offer a wide range of services, including brand design, development and consulting 
+              I offer a wide range of services, including UI/UX design, web development and consulting 
             </p>
           </div>
           <div className='lg:grid lg:grid-cols-3 gap-10'>

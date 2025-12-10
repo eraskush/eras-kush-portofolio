@@ -21,7 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
 
   return (
     <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/3 p-4">
-      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700 flex flex-col h-full transform hover:-translate-y-1">
+      <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700 flex flex-col h-full transform hover:-translate-y-1">
         {/* Image Section - Top of the card */}
         <div className="relative h-48 overflow-hidden rounded-t-xl">
           <img 
@@ -39,7 +39,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             {project.tags.map((tag, index) => (
               <span 
                 key={index} 
-                className="px-3 py-1 text-xs font-medium rounded-full bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200"
+                className="px-3 py-1 text-xs font-medium rounded-full bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300"
               >
                 {tag}
               </span>
@@ -82,7 +82,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           <div className="flex gap-3 mt-auto">
             <a 
               href={project.liveDemoUrl} 
-              className="flex-1 px-3 py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-medium rounded-lg text-center text-sm transition-all duration-300 transform hover:scale-[1.02] shadow-md hover:shadow-lg"
+              className="flex-1 px-3 py-2.5 bg-gradient-to-r bg-teal-100 dark:bg-teal-900 text-teal-800 dark:text-teal-200  font-medium rounded-lg text-center text-sm transition-all duration-300 transform  shadow-md hover:shadow-lg"
               target="_blank" 
               rel="noopener noreferrer"
             >
