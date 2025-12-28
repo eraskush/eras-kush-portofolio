@@ -148,7 +148,7 @@ export default function Home() {
   </div>
 </section>
 
-<section id="projects" className="py-12 bg-white dark:bg-gray-900">
+<section id="projects" className="py-12 bg-white dark:bg-gray-900  ">
           <div >
             <div className="text-center mb-8">
   <h3 className='text-3xl py-1 dark:text-white font-bold'>Projects</h3>
@@ -156,7 +156,7 @@ export default function Home() {
 </div>
             </div>
             {
-              <div className="container mx-auto px-4 dark:bg-gray-900">
+              <div className="container mx-auto px-4 dark:bg-gray-900 flex ">
                 {projects.map((project, index) => (
                   <ProjectCard key={index} project={project} />
                 ))}
