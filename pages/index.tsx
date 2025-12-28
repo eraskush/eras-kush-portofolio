@@ -156,7 +156,7 @@ export default function Home() {
 </div>
             </div>
             {
-              <div className="container mx-auto px-4 dark:bg-gray-900 flex ">
+              <div className="container mx-auto px-4 dark:bg-gray-900 flex sm:flex-col md:flex-row flex-wrap ">
                 {projects.map((project, index) => (
                   <ProjectCard key={index} project={project} />
                 ))}
